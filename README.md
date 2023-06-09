@@ -48,3 +48,6 @@ even though the resulting file was empty.
 
 ![output as if SG work true](https://github.com/dotnet/roslyn/assets/94985793/0d84f3ee-4301-4aaa-897b-85b5221cefdc)
 
+## Solution for VS 17.6.2:
+Based on the following GitHub comment : jan created an issue to track the bug: ![68489](https://github.com/dotnet/roslyn/issues/68489). Note that this is IDE-only problem, it should not prevent you from using directories in source-generated files in normal builds, such files just aren't displayed correctly in Visual Studio.
+  =>so we will move to this issue : ![Source Generator files with directories are not displayed correctly in IDE](https://github.com/dotnet/roslyn/issues/68489)
