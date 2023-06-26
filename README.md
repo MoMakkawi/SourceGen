@@ -9,7 +9,7 @@ context.AddSource(relativePath, source)
 ```
 
 
-## in VS 17.6.2 the problem :
+## in VS 17.6.4 & VS 17.6.2 the problem :
 I presented earlier that I am working on to try to generate a folder by name "folder" and contain "program.g.cs" file.
 
 the problem of generating **FOLDERS** is still **not** resolved.
